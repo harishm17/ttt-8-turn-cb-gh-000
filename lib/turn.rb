@@ -30,6 +30,10 @@ def move(board,index,c='X')
   board[index]=c
 end
 
+def input_to_index(num)
+  return num-1
+end
+
 def turn
   
 end
